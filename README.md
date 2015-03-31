@@ -1,2 +1,3 @@
-# jdistler.github.io
+# jdistler.me
 Joseph Distler's Personal Website
+Can be found at jdistler.me
