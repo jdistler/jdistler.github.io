@@ -4,5 +4,14 @@
 */
 
 .bigLogo{
-	font-size:75px;
+	font-size:125px;
+}
+
+.titleText{
+	font-family: 'Lobster', cursive;
+}
+
+#warningNote{
+	margin-top:20px;
+	display: none;
 }
