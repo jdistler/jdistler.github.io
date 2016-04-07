@@ -1,3 +1,3 @@
 # jdistler.me
 Joseph Distler's Personal Website
-Can be found at jdistler.me
+Can be found at http://jdistler.me
