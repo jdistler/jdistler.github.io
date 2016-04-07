@@ -6,3 +6,9 @@
     display: inline-block;
   }
 }
+
+@media (max-width:992px){
+  .carousel-inner>.item>a>img,.carousel-inner>.item>img,.img-responsive,.thumbnail a>img,.thumbnail>img{
+    height: 25%;
+  }
+}
