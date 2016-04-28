@@ -1,69 +1,69 @@
-<!-- A webpage by Joseph Distler -->
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Joseph Distler</title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Website about Joseph Distler" />
-        <meta name="keywords" content="Joseph Distler" />
-        <!--[if lte IE 8]>
-        <script src="css/ie/html5shiv.js"></script>
-        <![endif]-->
-        <script src="js/jquery-1.12.3.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/jumbotron-narrow.css" />
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="icon"
-         type="image/ico"
-         href="images/favicon.ico">
-        </head>
-        <body>
-          <div class="container" style="padding-left:0px;padding-right:0px;" id="mainContainer">
-            <div class="jumbotron">
-              <div class="row">
-                <div class="col-md-3 col-md-offset-1" style="margin-right:-35px;padding-left:0px;padding-right:0px;">
-                  <img src="images/me2.gif" class="img-responsive img-circle center-block"/>
-                </div>
-                <div class="col-md-8">
-                  <h2>Hi! I'm
-                      <strong>Joseph Distler</strong>
-                  </h2>
-                  <h2>
-                      <strong>CS</strong> major at
-                      <strong>UT-Austin</strong>
-                  </h2>
-                </div>
-              </div>
-              <p class="lead">Interests include Web/Mobile Dev, Machine Learning, InfoSec</p>
-            </div>
-            <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                      <div id="navbar">
-                        <ul class="nav navbar-nav" style="width:100%;text-align: center;">
-                          <li style="float: none;display: inline-block;"><a href="projects.html">Projects</a></li>
-                          <li style="float: none;display: inline-block;"><a href="docs/resume.pdf">Resume</a></li>
-                          <li style="float: none;display: inline-block;"><a href="ecuador/index.html">Volunteer Work</a></li>
-                        </ul>
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="description" content="Joseph Distler's Personal Webpage">
+    <title>Joseph Distler</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon"
+     type="image/ico"
+     href="images/favicon.ico">
+  </head>
 
-                      </div>
-                    </div>
-            </nav>
+  <body>
 
-            <div class="row marketing" style="padding-bottom:25px;">
-              <div class="col-md-12">
-                <h3>About Me</h3>
-                <p>East coast transplant living in ATX, I split my time on programming, brushing up on foreign languages, and exploring Austin!</p>
-              </div>
-              <div class="col-md-12">
-                <h3>Contact Information</h3>
-                <p>I'm actively seeking future internship opportunities for Fall 2016 onwards, feel free to reach out to me:</p>
-                <div class="container" style="width:100%;text-align: center;padding-top:25px;">
-                    <p><i class="fa fa-phone"></i>&nbsp;(201) 367-8707&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope"></i>&nbsp;<a href="malito:jdistler@utexas.edu">jdistler@utexas.edu</a></p>
-                    <p><i class="fa fa-linkedin"></i>&nbsp;<a href="http://linkedin.com/in/josephdistler">linkedin.com/in/josephdistler</a>&nbsp;&nbsp;&nbsp;<i class="fa fa-github"></i>&nbsp;<a href="http://github.com/jdistler">github.com/jdistler</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </body>
+    <div class="navbar-fixed">
+      <nav class="indigo darken-2">
+        <div class="nav-wrapper">
+          <a class="brand-logo">Home</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+          <ul class="right hide-on-med-and-down">
+
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/timeline.html">Timeline</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+
+          <ul class="side-nav" id="mobile-demo">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="pages/projects.html">About</a></li>
+            <li><a href="pages/projects.html">Projects</a></li>
+            <li><a href="pages/timeline.html">Timeline</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+      <div class="container">
+        <h1>Joseph Distler</h1>
+        <img class="responsive" src="images/me2.gif">
+        <p></p>
+        <h3>CS Student at UT-Austin</h3>
+        <div class="center-align">
+          <a href="pages/about.html" class="waves-effect waves-light btn indigo">About</a>
+          <a href="pages/projects.html" class="waves-effect waves-light btn indigo">Projects</a>
+          <a href="pages/timeline.html" class="waves-effect waves-light btn indigo">Timeline</a>
+          <a href="pages/contact.html" class="waves-effect waves-light btn indigo">Contact</a>
+      </div>
+      <p></p>
+      <div class="center-align">
+        <a href="resumes/KevinJNguyen-Resume.pdf" class="waves-effect waves-light btn light-green">Resume</a>
+    </div>
+  </div>
+
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+    $( document ).ready(function() {
+      $(".button-collapse").sideNav();
+    });
+    </script>
+
+  </body>
 </html>
