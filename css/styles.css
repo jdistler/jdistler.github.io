@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+.responsive {
+  max-width: 50%;
+  max-width: 230px;
+  height: auto;
+  display:block;
+  margin:0px auto;
+  -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-clip: padding-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+  color: #212121;
+}
+
+.btn {
+  width: 50%;
+  max-width: 175px;
+  margin-bottom: 10px;
+}
+
+iframe{
+  width:100%;
+}
+
+.map{
+  width:100%;
+}
+
+.brand-logo{
+  left: 10px;
+}
+
+.transparent-back{
+  background-color: transparent;
+  min-width:100px;
+  min-height:100px;
+}
+
+.collection{
+  width:120%;
+  position: fixed;
+  bottom: 0px;
+  margin-left: -20px;
+  margin-right: 0px;
+}
+.center-align.aboutme{
+  font-size: 20px;
+}
+.aboutme{
+  font-size: 16px;
+  height: 100%;
+}
+.container{
+  max-width: 1000px;
+}
