@@ -13,49 +13,50 @@
   </head>
 
   <body>
-
-    <div class="navbar-fixed">
-      <nav class="indigo darken-2">
-        <div class="nav-wrapper">
-          <a class="brand-logo">Home</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-          <ul class="right hide-on-med-and-down">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="pages/projects.html">About</a></li>
-            <li><a href="pages/projects.html">Projects</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-          </ul>
-
-          <ul class="side-nav" id="mobile-demo">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="pages/projects.html">About</a></li>
-            <li><a href="pages/projects.html">Projects</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
-          </ul>
+    <div class="topbar" style="box-shadow:none;background-color:#BF5700;">
+      <div class="fixed-topbar right">
+        <div class="social-links" style="margin-right:50px;margin-top:25px;">
+          <a href="http://github.com/softvar" target="_blank"><i class="fa  fa-github  fa-2x " style="color:#fff;padding: 0 7px;" title="Github"></i></a>
+          <a href="https://www.linkedin.com/in/softvar" target="_blank"><i class="fa  fa-linkedin  fa-2x" style="color:#fff;" title="LinkedIn"></i></a>
         </div>
-      </nav>
+      </div>
+      <a href="#" data-activates="mobile-demo" class="button-collapse" id="sidebar-nav" style="color: #BF5700;display:none;"><i class="fa fa-bars" style="margin: 10px 10px;"></i></a>
     </div>
 
-      <div class="container">
-        <h1>Joseph Distler</h1>
-        <img class="responsive" src="images/me2.gif">
-        <p></p>
-        <h3>CS Student at UT-Austin</h3>
-        <div class="center-align">
-          <a href="pages/about.html" class="waves-effect waves-light btn indigo">About</a>
-          <a href="pages/projects.html" class="waves-effect waves-light btn indigo">Projects</a>
-          <a href="pages/timeline.html" class="waves-effect waves-light btn indigo">Timeline</a>
-          <a href="pages/contact.html" class="waves-effect waves-light btn indigo">Contact</a>
-      </div>
-      <p></p>
-      <div class="center-align">
-        <a href="docs/resume.pdf" class="waves-effect waves-light btn light-green">Resume</a>
+    <header class="z-depth-1" style="background-color:#BF5700;box-shadow:none;">
+            <img src="images/me2.gif" alt="" class="circle responsive">
+
+            <h4 style="padding-top:10px;">Joseph Distler</h4>
+
+            <h5>CS Student at UT-Austin</h5>
+
+<div class="navbar-fixed" style="margin-bottom:15px;margin-top:5px;">
+  <nav style="box-shadow:none;background-color:#BF5700;">
+    <div class="nav-wrapper">
+      <a href="#" data-activates="mobile-demo" class="button-collapse" style="display:none;"><i class="material-icons">menu</i></a>
+
+      <ul class="hide-on-med-and-down">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+
+      <ul class="side-nav" id="mobile-demo" >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/projects.html">About</a></li>
+        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
     </div>
-  </div>
+  </nav>
+</div>
+        </header>
+
 
     <script src="js/jquery-1.12.3.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
     $( document ).ready(function() {
       $(".button-collapse").sideNav();

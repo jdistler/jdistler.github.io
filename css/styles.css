@@ -9,7 +9,7 @@ main {
 }
 .responsive {
   max-width: 50%;
-  max-width: 230px;
+  max-width: 190px;
   height: auto;
   display:block;
   margin:0px auto;
@@ -18,10 +18,29 @@ main {
 	border-radius: 50%;
 	background-clip: padding-box;
 }
+header nav ul li a{
+  position: relative;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 0 50px;
+}
+header nav ul li{
+  float:none;
+  display: inline-flex;
+}
+
+header nav ul{
+  text-align: center;
+}
+
+ul li a{
+  font-size: 25px;
+}
 
 h1,h2,h3,h4,h5,h6 {
   text-align: center;
-  color: #212121;
+  color: #FFFFFF;
+  font-weight: 300;
 }
 
 .btn {
@@ -64,4 +83,45 @@ iframe{
 }
 .container{
   max-width: 1000px;
+}
+
+.side-nav a {
+    color: #444;
+    display: block;
+    font-size: 1rem;
+    height: 64px;
+    line-height: 64px;
+    padding: 0 50px;
+}
+
+.side-nav li a {
+    font-size: 2.2em;
+}
+
+.side-nav li {
+    float: none;
+    padding: 0 15px;
+}
+
+#sidenav-overlay{
+  opacity:0 !important;
+}
+
+#sidebar-nav {;
+    margin-left:10px;
+    position: absolute;
+    top: 10px;
+    width: 44px;
+    height: 44px;
+    z-index: 700;
+    background-color: #333332;
+    border: 0;
+    font-size: 28px;
+}
+
+@media (max-width: 992px){
+  #sidebar-nav {
+      display:block!important;
+      color: #fff!important;
+  }
 }
