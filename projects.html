@@ -1,47 +1,131 @@
-<!-- A webpage by Joseph Distler -->
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Projects</title>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Joseph Distler Computer Science Projects" />
-        <meta name="keywords" content="Joseph Distler" />
-        <!--[if lte IE 8]>
-        <script src="css/ie/html5shiv.js"></script>
-        <![endif]-->
-        <script src="js/jquery-1.12.3.min.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/jumbotron-narrow.css" />
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="icon"
+   <head>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <meta name="description" content="Joseph Distler's Personal Webpage">
+      <title>Projects</title>
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/font-awesome.css">
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="icon"
          type="image/ico"
          href="images/favicon.ico">
-        </head>
-        <body>
-          <div class="container">
-            <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                      <div id="navbar">
-                        <ul class="nav navbar-nav" style="width:100%;text-align: center;">
-                          <li style="float: none;display: inline-block;"><a href="index.html">Home</a></li>
-                          <li style="float: none;display: inline-block;"><a href="docs/resume.pdf">Resume</a></li>
-                          <li style="float: none;display: inline-block;"><a href="ecuador/index.html">Volunteer Work</a></li>
-                        </ul>
-
-                      </div>
-                    </div>
+   </head>
+   <body>
+      <header class="z-depth-1" style="background-color:#BF5700;box-shadow:none;">
+         <div class="right-align">
+            <div class="social-links" style="margin-right:50px;padding-top:25px;">
+               <a href="mailto:jdistler@utexas.edu" target="_blank"><i class="fa  fa-envelope  fa-3x" style="color:#fff;" title="Email"></i></a>
+               <a href="http://github.com/jdistler" target="_blank"><i class="fa  fa-github  fa-3x " style="color:#fff;padding: 0 12px;" title="Github"></i></a>
+               <a href="https://www.linkedin.com/in/josephdistler" target="_blank"><i class="fa  fa-linkedin  fa-3x" style="color:#fff;" title="LinkedIn"></i></a>
+            </div>
+         </div>
+         <a href="#" data-activates="mobile-demo" class="button-collapse" id="sidebar-nav" style="display:none;"><i class="fa fa-bars fa-2x" style="margin: 10px 10px;"></i></a>
+         <img src="images/me2.gif" alt="" style="margin-top:-55px;"class="circle responsive">
+         <h4 style="padding-top:10px;margin-bottom:5px;">Joseph Distler</h4>
+         <h5 style="margin-bottom:5px;">CS Student at UT-Austin</h5>
+            <nav style="box-shadow:none;background-color:#BF5700;margin-bottom:5px;">
+               <div class="nav-wrapper">
+                  <a href="#" data-activates="mobile-demo" class="button-collapse" style="display:none;"><i class="material-icons">menu</i></a>
+                  <ul class="hide-on-med-and-down">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="projects.html">Projects</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                  <ul class="side-nav" id="mobile-demo" >
+                     <li><a href="index.html"><i class="fa fa-home fa-2x"></i> Home</a></li>
+                     <li><a href="projects.html"><i class="fa fa-code fa-2x"></i> Projects</a></li>
+                     <li><a href="contact.html"><i class="fa fa-send fa-2x"></i> Contact</a></li>
+                  </ul>
+               </div>
             </nav>
-            <h3>telephony</h3>
-            <p>Submission and Top 5 Finalist for the <a href="https://www.ieee.org/education_careers/education/university_programs/student_resources/watson_showcase.html">IEEE/IBM Watson Student Showcase</a></p>
-            <p>A “Telephone game” that passes a string of text through multiple levels of translation. Goal is to analyze the evolution of a text string passing through IBM Watson's Text-To-Speech, Speech-To-Text, and Translate functionality.</p>
-            <p><a href="http://telephony.mybluemix.net/">telephony.mybluemix.net</a> | <a href="https://lnkd.in/ejyV8mx">lnkd.in/ejyV8mx</a></p>
-            <h3>vibED</h3>
-            <p>HackTX 2015 Top 10 Finalist</p>
-            <p>A productivity hack which monitors ambient environmental factors such as temperature, light, and noise. Users notified when their working environment is no longer conducive to their productivity.</p>
-            <p>Built using Intel Edison micro-controller, Arduino Grove sensors, IBM Bluemix, MongoDB, Firebase, and Swift.</p>
-            <p><a href="http://devpost.com/software/vibed">devpost.com/software/vibed</a></p>
-            <h3>IoT Lab Sensor Dashboard</h3>
-            <p>IBM Bluemix application to collect sensor inputs for production, build, and test labs. This inter-disciplinary project encompassed wiring sensor circuitry to a Raspberry Pi, and designing both the Node js back-end and website user interface.</p>
-          </div>
-        </body>
+      </header>
+      <div class="container">
+         <p></p>
+         <div class="row">
+            <div class="col s12 m6 l4">
+               <div class="card">
+                  <div class="card-image">
+                     <img class="activator" src="images/telephony.png">
+                  </div>
+                  <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">telephony<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">telephony<i class="material-icons right">close</i></span>
+                     <p>A "Telephone game" that passes a string of text through multiple levels of translation.
+                     </p>
+                     <div class="collection">
+                        <a target="_blank" href="http://telephony.mybluemix.net/" class="collection-item">Use Live</a>
+                        <a href="telephony.html" class="collection-item">More Info</a>
+                        <a target="_blank" href="https://www.ieee.org/education_careers/education/university_programs/student_resources/watson_showcase.html" class="collection-item">IEEE/IBM Watson Student Showcase Finalist</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col s12 m6 l4">
+               <div class="card">
+                  <div class="card-image">
+                     <img class="activator" src="images/IBM.png">
+                  </div>
+                  <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">IoT Lab Sensors<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">IoT Lab Sensor Dashboard<i class="material-icons right">close</i></span>
+                     <p>IBM Bluemix application to collect sensor inputs for production, build, and test labs.
+                     </p>
+                     <div class="collection">
+                        <a href="iotlab.html" class="collection-item">More Info</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col s12 m6 l4">
+               <div class="card">
+                  <div class="card-image">
+                     <img class="activator" src="images/vibed.png">
+                  </div>
+                  <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">vibED<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">vibED<i class="material-icons right">close</i></span>
+                     <p>A productivity hack which monitors ambient environmental factors such as temperature, light, and noise.
+                     </p>
+                     <div class="collection">
+                        <a target="_blank" href="http://devpost.com/software/vibed" class="collection-item">Devpost</a>
+                        <a href="vibed.html" class="collection-item">More Info</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col s12 m6 l4">
+               <div class="card">
+                  <div class="card-image">
+                     <img class="activator" src="images/ecuador.png">
+                  </div>
+                  <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">TEKWW<i class="material-icons right">more_vert</i></span>
+                  </div>
+                  <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">TEKWW<i class="material-icons right">close</i></span>
+                     <p>A volunteer project started in High School to provide technological resources to impoverished schools in Ecuador.
+                     </p>
+                     <div class="collection">
+                        <a href="ecuador/index.html" class="collection-item">More Info</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery-1.12.3.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+         $( document ).ready(function() {
+           $(".button-collapse").sideNav();
+         });
+      </script>
+   </body>
 </html>

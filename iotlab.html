@@ -3,7 +3,7 @@
    <head>
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <meta name="description" content="Joseph Distler's Personal Webpage">
-      <title>Joseph Distler</title>
+      <title>IoT Lab Project</title>
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/styles.css" />
@@ -41,22 +41,51 @@
             </nav>
       </header>
       <div class="container">
-         <div class="row center">
-            <div class="col s12 m12">
-               <h2 class="header section-title" style="color:#333F48">
-                  <span><i class="fa fa-child"></i> About Me</span>
-               </h2>
-               <p class="flow-text" style="color:#333F48">
-                  Hi! I'm <strong style="color:#F2A900;">Joseph Distler</strong>, and I'm a <strong>Computer Science</strong> major at <strong>UT-Austin</strong>
-               </p>
-               <p class="flow-text" style="color:#333F48">
-                  Interests include <strong>Web/Mobile Dev</strong>, <strong>Machine Learning</strong>, and <strong>Information Security</strong>
-               </p>
-               <h3>
-                 <a href="docs/resume.pdf" style="color:#F2A900"><i class="fa fa-file-text"></i> My Resume</i> <i class="fa fa-arrow-right"></i></a>
-               </h3>
+        <div class="nav-wrapper">
+          <h1 class="center-align"  style="color:#333F48">IoT Lab Sensors Dashboard</h1>
+          <h5 class="center-align"  style="color:#333F48">Internal IBM Assignment</h5>
+          <h3 class="left-align"  style="color:#333F48">About</h3>
+          <div class="left-align aboutme">
+            During my time as a Co-op intern at IBM, I was presented with an issue in the labs that my team oversaw. These production, development, and test labs all contained very valuable servers, yet there was inadequate security and monitoring. And thus I designed a system to collect and inteprate sensor data to be displayed in an intuitive dashboard. I utilized a Raspberry Pi to collect the data, and the IBM Bluemix platform for the web app dashboard.
+          </div>
+        </div>
+
+        <h3 class="left-align" style="color:#333F48">Technologies</h3>
+          <div class="row">
+            <div class="col s6 m4 l3">
+            <div class="card">
+              <div class="card-image white">
+                <img src="images/buemix.png">
+              </div>
+              <div class="card-content">
+                <p>Node.js backend hosted on IBM Bluemix</p>
+              </div>
             </div>
-         </div>
+          </div>
+
+          <div class="col s6 m4 l3">
+          <div class="card">
+            <div class="card-image white">
+              <img src="images/angular.png">
+            </div>
+            <div class="card-content">
+              <p>Bootstrap frontend with open websockets for live data updates</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="col s6 m4 l3">
+          <div class="card">
+            <div class="card-image white">
+              <img src="images/raspberrypi.png">
+            </div>
+            <div class="card-content">
+              <p>Raspberry Pi and various sensors soldered on a PCB board and programmed using Python</p>
+            </div>
+          </div>
+          </div>
+
+        </div>
       </div>
       <script src="js/jquery-1.12.3.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

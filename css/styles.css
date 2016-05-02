@@ -26,6 +26,7 @@ header nav ul li a{
 }
 header nav ul li{
   float:none;
+  display: -webkit-inline-flex;
   display: inline-flex;
 }
 
@@ -114,10 +115,10 @@ iframe{
     width: 44px;
     height: 44px;
     z-index: 700;
-    background-color: #333332;
     border: 0;
     font-size: 28px;
 }
+
 
 @media (max-width: 992px){
   #sidebar-nav {
