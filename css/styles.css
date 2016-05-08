@@ -157,4 +157,10 @@ iframe{
   #additionalInfo{
     margin-top: 25px;
   }
+  .side-nav li a:hover {
+   background-color: #f2f1ed;
+ }
+ .side-nav li:hover {
+  background-color: #f2f1ed;
+}
 }
