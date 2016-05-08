@@ -8,8 +8,7 @@ main {
   flex: 1 0 auto;
 }
 .responsive {
-  max-width: 50%;
-  max-width: 190px;
+  max-width: 15%;
   height: auto;
   display:block;
   margin:0px auto;
@@ -124,5 +123,35 @@ iframe{
   #sidebar-nav {
       display:block!important;
       color: #fff!important;
+  }
+  .responsive {
+    max-width: 55%;
+  }
+  .side-nav {
+    width: 30em;
+  }
+  .side-nav li a {
+    font-size: 2.3em;
+  }
+  .side-nav li {
+    padding: 35px 15px;
+  }
+  h1 {
+    font-size: 8.4rem;
+  }
+  h2 {
+    font-size: 7.12rem;
+  }
+  h3 {
+    font-size: 5.84rem;
+  }
+  h4 {
+    font-size: 4.56rem;
+  }
+  h5 {
+    font-size: 3.28rem;
+  }
+  h6 {
+    font-size: 2rem;
   }
 }
