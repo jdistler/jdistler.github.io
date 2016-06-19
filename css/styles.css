@@ -154,6 +154,22 @@ iframe{
   h6 {
     font-size: 2rem;
   }
+
+  .card .card-title {
+  font-size: 4.56rem;
+}
+.card .card-reveal {
+    font-size: 3.28rem;
+}
+.card .card-content p {
+    font-size: 2rem;
+}
+.collection .collection-item {
+    padding: 30px 20px;
+}
+.card .card-content {
+    padding: 40px 20px;
+}
   #additionalInfo{
     margin-top: 25px;
   }
