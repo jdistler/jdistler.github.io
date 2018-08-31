@@ -179,4 +179,15 @@ iframe{
  .side-nav li:hover {
   background-color: #f2f1ed;
 }
+
+.top-right {
+  text-align: center;
+}
+
+}
+
+.top-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }

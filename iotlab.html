@@ -1,58 +1,54 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <meta name="description" content="Joseph Distler's Personal Webpage">
-      <title>IoT Lab Project</title>
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <link rel="stylesheet" href="css/font-awesome.css">
-      <link rel="stylesheet" href="css/styles.css" />
-      <link rel="icon"
-         type="image/ico"
-         href="images/favicon.ico">
-   </head>
-   <body>
-      <header class="z-depth-1" style="background-color:#BF5700;box-shadow:none;">
-         <div class="right-align">
-            <div class="social-links" style="margin-right:50px;padding-top:25px;">
-              <a href="mailto:jdistler@utexas.edu" target="_blank"><i class="fa  fa-envelope  fa-4x" style="color:#fff;" title="Email"></i></a>
-              <a href="http://github.com/jdistler" target="_blank"><i class="fa  fa-github  fa-4x " style="color:#fff;padding: 0 12px;" title="Github"></i></a>
-              <a href="https://www.linkedin.com/in/josephdistler" target="_blank"><i class="fa  fa-linkedin  fa-4x" style="color:#fff;" title="LinkedIn"></i></a>
-           </div>
-        </div>
-        <a href="#" data-activates="mobile-demo" class="button-collapse" id="sidebar-nav" style="display:none;"><i class="fa fa-bars fa-4x" style="margin: 10px 10px;"></i></a>
-        <img src="images/me2.gif" alt="" style="margin-top:-55px;"class="circle responsive">
-         <h4 style="padding-top:10px;margin-bottom:5px;">Joseph Distler</h4>
-         <h5 style="margin-bottom:5px;">CS Student at UT-Austin</h5>
-            <nav style="box-shadow:none;background-color:#BF5700;margin-bottom:5px;">
-               <div class="nav-wrapper">
-                  <a href="#" data-activates="mobile-demo" class="button-collapse" style="display:none;"><i class="material-icons">menu</i></a>
-                  <ul class="hide-on-med-and-down">
-                     <li><a href="index.html"><i class="fa fa-home fa-2x"></i> Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-                     <li><a href="projects.html">Projects</a></li>
-                     <li><a href="contact.html">Contact</a></li>
-                  </ul>
-                  <ul class="side-nav" id="mobile-demo" >
-                     <li><a href="index.html"><i class="fa fa-home fa-2x"></i> Home</a></li>
-                     <li><a href="projects.html"><i class="fa fa-code fa-2x"></i> Projects</a></li>
-                     <li><a href="contact.html"><i class="fa fa-send fa-2x"></i> Contact</a></li>
-                  </ul>
-               </div>
-            </nav>
-      </header>
+<head>
+   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <meta name="description" content="Joseph Distler's Personal Webpage">
+   <title>Joseph Distler</title>
+   <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+   <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+   <header class="z-depth-1" style="background-color:#001f3f;box-shadow:none;">
+      <a href="#" data-activates="mobile-demo" class="button-collapse" id="sidebar-nav" style="display:none;"><i class="fa fa-bars fa-4x" style="margin: 10px 10px;"></i></a>
+      <h4 style="padding-top:10px;margin-bottom:5px;">Joseph Distler</h4>
+      <h5 style="margin-bottom:5px;">CS Student at UT-Austin</h5>
+      <div style="text-align:center">
+         <div class="social-links">
+            <a href="mailto:jdistler@utexas.edu" target="_blank"><i class="fa  fa-envelope" style="color:#fff;font-size: 6em;" title="Email"></i></a>
+            <a href="http://github.com/jdistler" target="_blank"><i class="fa  fa-github " style="color:#fff;padding: 0 12px;font-size: 6em;" title="Github"></i></a>
+            <a href="https://www.linkedin.com/in/josephdistler" target="_blank"><i class="fa  fa-linkedin" style="color:#fff;font-size: 6em;" title="LinkedIn"></i></a>
+         </div>
+      </div>
+         <nav style="box-shadow:none;background-color:#001f3f;margin-bottom:5px;">
+            <div class="nav-wrapper">
+               <a href="#" data-activates="mobile-demo" class="button-collapse" style="display:none;"><i class="material-icons">menu</i></a>
+               <ul class="hide-on-med-and-down">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+               <ul class="side-nav" id="mobile-demo" >
+                  <li><a href="index.html"><i class="fa fa-home fa-2x"></i> Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                  <li><a href="projects.html"><i class="fa fa-code fa-2x"></i> Projects</a></li>
+                  <li><a href="contact.html"><i class="fa fa-send fa-2x"></i> Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+   </header>
       <div class="container">
         <div class="nav-wrapper">
           <h1 class="center-align"  style="color:#333F48">IoT Lab Sensors Dashboard</h1>
           <h5 class="center-align"  style="color:#333F48">Internal IBM Assignment</h5>
           <h3 class="left-align"  style="color:#333F48">About</h3>
-          <div class="left-align aboutme">
+          <div class="left-align flow-text">
             During my time as a Co-op intern at IBM, I was presented with an issue in the labs that my team oversaw. These production, development, and test labs all contained very valuable servers, yet there was inadequate security and monitoring. And thus I designed a system to collect and inteprate sensor data to be displayed in an intuitive dashboard. I utilized a Raspberry Pi to collect the data, and the IBM Bluemix platform for the web app dashboard.
           </div>
         </div>
 
         <h3 class="left-align" style="color:#333F48">Technologies</h3>
           <div class="row">
-            <div class="col s6 m4 l3">
+            <div class="col s6 l3">
             <div class="card">
               <div class="card-image white">
                 <img src="images/bluemix.png">
@@ -63,7 +59,7 @@
             </div>
           </div>
 
-          <div class="col s6 m4 l3">
+          <div class="col s6 l3">
           <div class="card">
             <div class="card-image white">
               <img src="images/angular.png">
@@ -74,7 +70,7 @@
           </div>
           </div>
 
-          <div class="col s6 m4 l3">
+          <div class="col s6 l3">
           <div class="card">
             <div class="card-image white">
               <img src="images/raspberrypi.png">
